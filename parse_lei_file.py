@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import requests # for API request
 import pandas as pd # for csv reading and excel output
 from datetime import date, timedelta
@@ -16,11 +14,11 @@ filename_xlsx_output = f'reports/LEI_Status_{yesterday}.xlsx'
 
 
 # gbi customer list
-try:                           
+try:
     gbi_lei = pd.read_csv(filename_gbi_lei)
 except:
     print('\nInvalid File (GBI_LEI)!\n')
-    quit() 
+    quit()
 
 # ignore closed customers    
 gbi_lei = gbi_lei[gbi_lei.ACCOUNT_OFFICER != 9999].reset_index(drop=True)
