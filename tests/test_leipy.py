@@ -6,12 +6,13 @@ with open('example_lei.csv', 'r') as f:
     l_list = [i[0] for i in reader]
 
 def test_lei_name():
-    g = GLEIF(l_list)
+    g = GLEIF(api_version='v1')
 
-    output = g.process_leis()
+    
+    output = g.request(l_list)
 
     assert isinstance(output, list)
     assert 'KS Projekt GmbH' in [output[i]['Entity']['LegalName']['$'] for i in range(len(output))]
     assert 'Rimatzki Baugeschäft GmbH' in [output[i]['Entity']['LegalName']['$'] for i in range(len(output))]
-    assert len(output) == len(g.lei_list)
+    assert len(output) <= len(l_list)
     assert len(output[0]) >= 3
