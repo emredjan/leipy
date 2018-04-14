@@ -99,7 +99,7 @@ After that, you can access the raw output from the API, results as a class with 
 >>>results_df
 ```
 
-|-|country_hq|country_legal|date_initial_reg|date_last_updated|date_next_renewal|legal_name|lei|lei_reg_status|status|
+| |country_hq|country_legal|date_initial_reg|date_last_updated|date_next_renewal|legal_name|lei|lei_reg_status|status|
 |-|----------|-------------|----------------|-----------------|-----------------|----------|---|--------------|------|
 |0	|US	|US	|2012-06-06 15:53:00+00:00	|2017-12-12 21:19:00+00:00	|2018-12-13 00:31:00+00:00	|Apple Inc.	|HWUPKR0MPOU8FGXBT394	|ISSUED	|ACTIVE|
 |1	|US	|US	|2012-06-06 15:52:00+00:00	|2018-03-28 17:00:00+00:00	|2018-08-17 18:10:00+00:00	|Google LLC	|7ZW8QJWVPR4P1J1KQY45	|ISSUED	|ACTIVE|
