@@ -4,7 +4,7 @@
 # Test files
 parse_lei_file.py
 manual_test.py
-example_lei.csv
+#example_lei.csv
 
 # conda
 environment.yml
