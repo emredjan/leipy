@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/leipy.svg)](https://badge.fury.io/py/leipy)
+
 # LEIPY
 
 A python wrapper / client for GLEIF public API. Suggestions, requests, contributions welcome.
@@ -10,6 +12,14 @@ A python wrapper / client for GLEIF public API. Suggestions, requests, contribut
 2. [requests](http://docs.python-requests.org/en/master/): For API requests
 3. [dateutil](https://dateutil.readthedocs.io/en/stable/): For correctly parsing dates as datetime objects
 4. [pandas](https://pandas.pydata.org/): Optional, for returning output as DataFrame 
+
+## Installation
+
+You can install the package from PyPI with pip, which would take care of the dependencies:
+
+```bash
+$ pip install leipy
+```
 
 ## Usage
 
