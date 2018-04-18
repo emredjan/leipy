@@ -14,10 +14,8 @@ clean:
 test: clean-pyc
 	pytest $(TEST_PATH)
 
-build-sdist: clean
+build: clean
 	python setup.py sdist
-
-build-bdist: clean
 	python setup.py bdist_wheel
 
 upload:
