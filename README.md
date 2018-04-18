@@ -6,9 +6,10 @@ A python wrapper / client for GLEIF public API. Suggestions, requests, contribut
 
 ## Dependencies
 
-1. [requests](http://docs.python-requests.org/en/master/): For API requests
-2. [dateutil](https://dateutil.readthedocs.io/en/stable/): For correctly parsing dates as datetime objects
-3. [pandas](https://pandas.pydata.org/): Optional, for returning output as DataFrame 
+1. Python >= 3.4
+2. [requests](http://docs.python-requests.org/en/master/): For API requests
+3. [dateutil](https://dateutil.readthedocs.io/en/stable/): For correctly parsing dates as datetime objects
+4. [pandas](https://pandas.pydata.org/): Optional, for returning output as DataFrame 
 
 ## Usage
 

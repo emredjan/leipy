@@ -24,7 +24,7 @@ class GLEIF:
             Only the default 'v1' is valid for now.
         """
 
-        self._api_url = f'https://leilookup.gleif.org/api/{api_version}/leirecords'
+        self._api_url = 'https://leilookup.gleif.org/api/{0}/leirecords'.format(api_version)
 
     def request(self, lei_list, return_dataframe=False):
         """
